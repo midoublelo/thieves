@@ -1,5 +1,5 @@
 # thieves
-Thieves is a concurrent, thread-safe Google Drive uploader library.
+Thieves is a concurrent, thread-safe Google Drive uploader library. Will be releasing version on pip soon, but for now just include local file.
 
 ## Usage
 Thieves uses pydrive which requires credentials from a Cloud Platform project. You can create one by clicking 'Enable the Drive API' here: https://developers.google.com/drive/api/v3/quickstart/python. Then save the file 'credentials.json' and rename it to 'client_secrets.json'. Now you can start writing code!
