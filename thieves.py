@@ -61,7 +61,3 @@ class Thief:
             with open('pathlist.json', 'w') as pathFile:
                 json.dump(addedFolder, pathFile)
             print("'pathlist.json' created. Please run again.")
-
-folder = Thief("C:/Users/Millo/Desktop/Exedys/Projects/Thieves/thieves/test")
-folder.auth()
-folder.upload()
